@@ -62,7 +62,7 @@ app.post('/actionPage/haha', function(req, res)
 
 
 
-app.listen(2000, function()
+app.listen(process.env.PORT || 5000, function()
 {
   console.log("Server started on port 2000");
 });
